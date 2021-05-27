@@ -1,8 +1,0 @@
-Waste facility managed by council
-landfils
-Business recycling
-Council ID’s
-Notice to residence
-Info specific to council
-Add Recycling Business 
-BaseUrl link -  html
