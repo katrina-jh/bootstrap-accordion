@@ -1,4 +1,4 @@
-const checkboxes = document.getElementsByClassName('form-check-input');
+const checkboxes = document.querySelectorAll('.form-check-input');
 const textarea = document.querySelector('textarea');
 
 for (let i = 0; i < checkboxes.length; i++) {
