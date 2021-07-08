@@ -3,14 +3,14 @@
   padding: 0;
 }
 
+body {
+  padding: 4%;
+}
+
 h1 {
   text-align: center;
   margin: 50px 0;
   font-family: sans-serif;
-}
-
-body {
-  padding: 4%;
 }
 
 p {
@@ -19,16 +19,12 @@ p {
 
 .container {
   max-width: 600px;
+  margin: 60px auto;
   overflow: auto;
 }
 
 .form-check-label {
   font-size: 0.8rem;
-}
-
-.container {
-  width: 600px;
-  margin: 60px auto;
 }
 
 .accordion-button {
@@ -88,6 +84,14 @@ p {
   content: '\002B';
 }
 
+.accordion-button:not(.collapsed)::after {
+  background-image: url('');
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+}
+
 .accordion-item,
 .accordion-header {
   background-color: transparent !important;
@@ -97,19 +101,11 @@ p {
 }
 
 .accordion-item {
-  box-shadow: 0 2px 25px 0 rgba(110, 130, 208, 0.18);
+  box-shadow: 0 2px 10px 0 rgba(110, 130, 208, 0.18);
   margin-bottom: 20px;
   border: none;
 }
 
 .accordion-body {
   background: #e8eeff;
-}
-
-.accordion-button:not(.collapsed)::after {
-  background-image: url('');
-}
-
-.accordion-button:not(.collapsed) {
-  background-color: #fff;
 }
